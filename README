@@ -1,0 +1,22 @@
+This project started off as a way to have a localy sourced new tab page in a web browser (firefox, in this case).
+The source for this need was in my constant switching of operating systems. 
+Since I never really bothered too much to get bookmark syncing setup, I decided to teach myself html and create a page that I could view when I open a new tab, and use that as a "bookmark bar", so to speak.
+
+The first version uploaded to Github is more advanced than what was first around on my pc. The first few iterations were simple, 1 column html.
+Now, the page incorperates CSS from Bootstrap to create an advanced layout.
+
+If you want to use this code as a model, feel free, of course. But be aware that this project depends on:
+
+DEPENDENCIES
+============
+
+-Bootstrap CSS libraries
+
+And in the future, will most likely require JQuery and some Bootstrap javascripting templates or stuff.
+(and if you have not heard of Bootstrap, go check them out -- its an amazing, simple to use, really slick web design suite that makes starting websites very easy)
+
+In the coming months, expect this repo to reflect the growing demands from this local site, from becoming a simple page of links, to a fully functional site that with all sorts of cool functions.
+
+Anyways, this is what this repo is about, and what to expect in the future. 
+
+~ Sir-Batman
