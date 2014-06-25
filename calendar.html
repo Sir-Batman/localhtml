@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<body>
-		<h1>
-		My Class Calendar
-		</h1>
+<html lang="en">
+	
+	
+	<head>
+		<meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="../bootstrap-3.1.1-dist/css/bootstrap.min.css">
+		<!-- Mobile scaling friendly -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!--This should add my google class calendar.-->
+		<!-- Custom styles for this template -->
+		<link href="stickyfooter.css" rel="stylesheet">
 
-		<iframe src="https://www.google.com/calendar/embed?src=oregonstate.edu_aas42dr6cgi68nlmk7oj5tah1k%40group.calendar.google.com&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23ff9900&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		<title>Class Schedule</title>
+	</head>
+	
+	<body background="./images/graphpaper-background.png">
+		
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<!-- Main Button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="#">New Tab Page</a>
+				</div>
+
+				<!-- Calendar button et al. -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="./calendar.html">Class Schedule</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- /navbar -->
+
+		<div class="row">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-6">
+				<!--This should add my google class calendar.-->
+				<iframe src="https://www.google.com/calendar/embed?src=oregonstate.edu_aas42dr6cgi68nlmk7oj5tah1k%40group.calendar.google.com&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23ff9900&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+			</div>
+			<div class="col-xs-3"></div>
+		</div> <!-- /row -->
+
+		<div id="footer">
+			<div class="container">
+				<p class="text-muted">Copyright Connor Yates -- 2014</p>
+			</div>
+		</div>
+		
 	</body>
 </html>
 
