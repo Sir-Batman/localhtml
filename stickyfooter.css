@@ -28,10 +28,8 @@ body {
 	width: auto;
 	max-width: 680px;
 	padding: 0 15px;
-    margin-right: auto;
-    margin-left: 8%;
 }
 
-.container .text-muted {
+.text-muted {
 	margin: 20px 0;
 }
